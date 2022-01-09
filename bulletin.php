@@ -1,6 +1,6 @@
 <?php
     error_reporting(0);
-    session_start();#告訴系統準備使用
+    session_start();#告訴系統使用
     if (!$_SESSION["id"]) {
         echo "please login first";
         echo "<meta http-equiv=REFRESH content='3, url=login.html'>";
